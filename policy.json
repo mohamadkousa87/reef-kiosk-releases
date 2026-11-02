@@ -1,0 +1,18 @@
+{
+  "show_notifications": true,
+  "allowed_apps": [
+    "com.waze",
+    "com.google.android.apps.maps",
+    "com.whatsapp.w4b",
+    "@sms"
+  ],
+  "required_apps": [
+    "com.waze",
+    "com.whatsapp.w4b"
+  ],
+  "permissions": {
+    "com.waze": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "RECORD_AUDIO", "POST_NOTIFICATIONS"],
+    "com.google.android.apps.maps": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "RECORD_AUDIO", "POST_NOTIFICATIONS"],
+    "com.whatsapp.w4b": ["CAMERA", "RECORD_AUDIO", "READ_CONTACTS", "WRITE_CONTACTS", "POST_NOTIFICATIONS", "READ_MEDIA_IMAGES", "READ_MEDIA_VIDEO"]
+  }
+}
